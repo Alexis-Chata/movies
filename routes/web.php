@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ActorsController;
 use App\Http\Controllers\MoviesController;
+use App\Http\Controllers\TvController;
 use Illuminate\Support\Facades\Route;
 
 /*
