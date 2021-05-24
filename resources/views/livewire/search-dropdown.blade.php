@@ -5,7 +5,7 @@
         class="bg-gray-800 text-sm rounded-full w-64 px-4 pl-8 py-1 focus:outline-none focus:shadow-outline" placeholder="Search (Press '/' to focus)"
         x-ref="search"
         @keydown.window="
-            if (event.keyCode === 191) {
+            if (event.keyCode === 111) {
                 event.preventDefault();
                 $refs.search.focus();
             }
